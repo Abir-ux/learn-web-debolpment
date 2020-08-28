@@ -1,0 +1,60 @@
+h1{
+    font-size: 40px;
+}
+.color1{
+    color: orange;
+}
+img{
+    width: 550px;
+}
+.half-width{
+    width: 400px;
+    float: left;
+    margin-left: 60px; 
+    height: 500px;
+
+}
+#abir{
+    border-radius: 1000px;
+}
+.arif{
+    margin-left: 200px;
+}
+#a{
+    margin-top: 95px;
+}
+.sahida{
+    color: orange;
+}
+
+
+.singel-experience{
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 60%;
+}
+#full-stack{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+    
+}
+#baby-web{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(blue,cyan);
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 500px;
+}
+
+
+

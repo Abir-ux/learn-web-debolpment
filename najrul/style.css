@@ -1,0 +1,82 @@
+
+
+.div{
+font-size: 55px;
+text-align: center;
+height: 100px;
+position: relative;
+animation: mymove 2s infinite;
+animation-iteration-count: 1;
+animation-direction: reverse;
+}
+
+@keyframes mymove {
+from {right: 0px;}
+to {right: 700px;}
+}
+
+
+.dv{
+font-size: 55px;
+text-align: center;
+height: 100px;
+position: relative;
+animation: move 2s infinite;
+animation-iteration-count: 1;
+animation-direction: reverse;
+}
+    
+@keyframes move {
+from {left: 0px;}
+to {left: 700px;}
+}
+
+.lk{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    overflow: scroll;
+    height: 300px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.561);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 15px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  .borderimg {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 round;
+  }
+
+
+  .kjh{
+    /*transform: rotate(20deg);*/
+    transform: rotateX(150deg);
+  }
+
